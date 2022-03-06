@@ -1,7 +1,7 @@
 # jwt_auth
 
 ## How to run project:
-npm install
+- npm install
 ----
 - cd server
 - npm start
