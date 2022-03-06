@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to right, #000000, #000000, #000000);
+  padding:10px;
+  height:75px;
+}
+
+.topnav .link-style {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.header{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border: 10px white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header:hover{
+  font-size:x-large;
+  transition: 0.3s;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.topnav .link-style:hover {
+  background-color: #ddd;
+  color: black;
+  transition: 0.3s;
+  font-weight:bold;
+  font-size:x-large;
+}
+
+p{
+  color: black;
+}
+
+input{
+  padding:10px;
+  margin:15px;
+  transition: 0.3s;
+  font-weight:bold;
+}
+
+input:focus{
+  background-color:black;
+  color: white;
+  transition: 0.3s;
+}
+
+h4{
+  font-family: "Arial Black", sans-serif;
+  letter-spacing: -1px;
+  background-color: black;
+  font-size:xxx-large;
+  color: white;
+}
+
+h4:hover{
+
+}
+
+.form{
+  background-color: RGB(247, 202, 201);
+  width: 50%;
+  height: 70vmin;
+  border: 5px black solid;
+  padding:30px;
+  transition: 0.3s;
+}
+
+.form:hover{
+  width: 60%;
+  height: 60vmin;
+  transition: 0.3s;
+}
+
+hr{
+  border-top: 1px dashed #000000;
+}
+
+.submitMarketData{
+  background-color: black;
+  color: white;
+  width: 10%;
+}
+
+.submitMarketData:hover{
+  opacity:0.8;
+}
+
+.db_form{
+  background-color: RGB(247, 202, 201);
+  width: 50%;
+  height: 80vmin;
+  border: 5px black solid;
+  padding:30px;
+  transition: 0.3s;
+}
+
+.db_form:hover{
+  width: 60%;
+  height: 70vmin;
+  transition: 0.3s;
+}
+
+.backToTop{
+  padding:10px;
+  background-color: black;
+  color:white;
+  font-weight:bold;
+  transition: 0.3s;
+}
+
+.backToTop:hover{
+  opacity:0.8;
+  transition: 0.3s;
+}
+
+img{
+  height: 50px;
+}
+
+.home{
+  background-color: RGB(247, 202, 201);
+  width: 50%;
+  height: 325vmin;
+  border: 5px black solid;
+  padding:30px;
+  transition: 0.3s;
+  margin-top: 100px;
+}
