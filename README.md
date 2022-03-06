@@ -14,10 +14,10 @@ There are 4 main roles:
 - default
 - management
 - admin
-
+----
 - default users can find and add data to MongoDB.
 - management users can find, add and update data in MongoDB.
-- admin users can find find, add, update and delete data in MongoDB.
+- admin users can find, add, update and delete data in MongoDB.
 
 You can only register as a default user
 
