@@ -507,7 +507,7 @@ app.get("/addData/:OU/:username/:password",verifyToken,(req, res) => {
                                 newTest.save((err) => {
                                     if (err) return res.send("Some details already exists");
                                     res.json("Added successfully");
-                                    console.log("Added successfully");
+                                    console.log("Added successfully .");
                                 })
                             }
                             else if(err){
